@@ -1,0 +1,16 @@
+[
+{
+  "modid": "apparatus",
+  "name": "Apparatus",
+  "description": "Blends tech, utility and magic together",
+  "version": "1.0",
+  "mcversion": "1.10.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["SniperLegacy"],
+  "credits": "Quite a lot of people who inspired this mod ... Extra Utilities, Mekanism, Thermal Expansion, etc.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
