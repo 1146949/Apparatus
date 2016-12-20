@@ -21,6 +21,7 @@ public class BlockRheniumOre extends Block {
         this.setRegistryName(new ResourceLocation(Document.MOD_ID, p_registryName));
         this.setHardness(3F);
         this.setResistance(5F);
+        this.setHarvestLevel("pickaxe", 2);
     }
 
     @Override
