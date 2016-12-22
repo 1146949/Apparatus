@@ -1,3 +1,5 @@
 tile.rheniumOre.name=Rhenium Ore
 
+item.rheniumIngot.name=Rhenium Ingot
+
 itemGroup.creativeTabApparatus=Apparatus

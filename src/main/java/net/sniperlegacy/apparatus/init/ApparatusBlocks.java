@@ -21,6 +21,7 @@ public class ApparatusBlocks {
 
     public static void init() {
         m_rheniumOre = new BlockRheniumOre("rheniumOre", "rheniumOre");
+        register();
     }
 
     public static void register() {

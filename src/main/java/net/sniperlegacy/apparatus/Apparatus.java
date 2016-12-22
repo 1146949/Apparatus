@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.oredict.OreDictionary;
+import net.sniperlegacy.apparatus.init.ApparatusItems;
 import net.sniperlegacy.apparatus.util.Utils;
 import net.sniperlegacy.apparatus.init.ApparatusBlocks;
 import net.sniperlegacy.apparatus.proxy.CommonProxy;
@@ -32,7 +33,7 @@ public class Apparatus {
     public void preInit(FMLPreInitializationEvent p_event) {
         Utils.getLogger().info("Pre initialization of " + Document.NAME);
         ApparatusBlocks.init();
-        ApparatusBlocks.register();
+        ApparatusItems.init();
 
         proxy.registerRenders();
     }
