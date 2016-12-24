@@ -1,4 +1,6 @@
 tile.rheniumOre.name=Rhenium Ore
+tile.OreBlock.CopperOre.name=Copper Ore
+tile.OreBlock.TinOre.name=Tin Ore
 
 item.rheniumIngot.name=Rhenium Ingot
 

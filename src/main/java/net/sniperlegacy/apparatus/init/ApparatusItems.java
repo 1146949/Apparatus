@@ -21,6 +21,10 @@ public class ApparatusItems {
         register();
     }
 
+    public static Item initOreBlock(Item item, String name) {
+        return item.setUnlocalizedName(name).setRegistryName("apparatus:" + name);
+    }
+
     public static void register() {
         registerItem(m_rheniumIngot);
     }

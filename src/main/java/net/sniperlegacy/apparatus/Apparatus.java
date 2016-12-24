@@ -44,6 +44,7 @@ public class Apparatus {
 
         proxy.registerWorldGenerators();
         OreDictionaryHandler.registerOreDictionary();
+        RecipeHandler.registerAllRecipes();
     }
 
     @EventHandler

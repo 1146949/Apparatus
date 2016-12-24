@@ -1,0 +1,13 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "apparatus:basicCube"
+  },
+  "variants": {
+    "type": {
+      "copper": {"textures": {"all": "apparatus:blocks/copperOre"}},
+      "tin": {"textures": {"all": "apparatus:blocks/tinOre"}}
+    },
+    "inventory": [{}]
+  }
+}

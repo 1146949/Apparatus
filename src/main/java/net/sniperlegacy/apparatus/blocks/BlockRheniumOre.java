@@ -5,7 +5,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
-import net.sniperlegacy.apparatus.Apparatus;
 import net.sniperlegacy.apparatus.Document;
 
 import java.util.Random;
